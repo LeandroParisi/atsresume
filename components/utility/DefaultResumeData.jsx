@@ -1,6 +1,6 @@
 const DefaultResumeData = {
   name: "Leandro Parisi",
-  position: "Full stack Developer",
+  position: "BackEnd Developer",
   contactInformation: "+55 31 997794403",
   email: "lepcbelisario@gmail.com",
   address: "Minas Gerais, Brazil",
