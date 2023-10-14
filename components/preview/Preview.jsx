@@ -1,23 +1,23 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaTwitter,
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
-import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
-import { CgWebsite } from "react-icons/cg";
-import Skills from "./Skills";
-import DateRange from "../utility/DateRange";
-import ContactInfo from "./ContactInfo";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useContext } from "react";
+import { CgWebsite } from "react-icons/cg";
+import {
+  FaFacebook,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
+import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 import { ResumeContext } from "../../pages/builder";
-import dynamic from "next/dynamic";
-import Language from "./Language";
+import DateRange from "../utility/DateRange";
 import Certification from "./Certification";
+import ContactInfo from "./ContactInfo";
+import Language from "./Language";
+import Skills from "./Skills";
 
 const DragDropContext = dynamic(
   () =>
@@ -110,22 +110,23 @@ const Preview = () => {
     }
   };
 
+  console.log(resumeData.profilePicture)
   return (
     <div className="md:max-w-[60%] sticky top-0 preview rm-padding-print p-6 md:overflow-y-scroll md:h-screen">
       <A4PageWrapper>
         <DragDropContext onDragEnd={onDragEnd}>
           <div className="f-col items-center mb-1">
-            {resumeData.profilePicture.length > 0 && (
+            {/* {resumeData.profilePicture.length > 0 && ( */}
               <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-fuchsia-700">
                 <Image
-                  src={resumeData.profilePicture}
+                  src={"/assets/profile_photo.jpeg"}
                   alt="profile"
                   width={100}
                   height={100}
                   className="object-cover h-full w-full"
                 />
               </div>
-            )}
+            {/* )} */}
             <h1 className="name">{resumeData.name}</h1>
             <p className="profession">{resumeData.position}</p>
             <ContactInfo

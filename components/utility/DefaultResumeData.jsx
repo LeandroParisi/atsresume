@@ -1,71 +1,132 @@
 const DefaultResumeData = {
-  name: "MARCUS HALL",
-  position: "Developer",
-  contactInformation: "+1-555-0100",
-  email: "beddylea@gmail.com",
-  address: "San Francisco, CA",
+  name: "Leandro Parisi",
+  position: "Full stack Developer",
+  contactInformation: "+55 31 997794403",
+  email: "lepcbelisario@gmail.com",
+  address: "Minas Gerais, Brazil",
   profilePicture: "",
   socialMedia: [
     {
       socialMedia: "Github",
-      link: "github.com//bedivere-lea",
+      link: "https://github.com/LeandroParisi",
     },
     {
       socialMedia: "LinkedIn",
-      link: "linkedin.com/in/bedivere-lea",
+      link: "https://www.linkedin.com/in/leandro-parisi/",
     },
     {
-      socialMedia: "Website",
-      link: "bedivere-lea.github.io",
+      socialMedia: "Portfolio",
+      link: "https://github.com/LeandroParisi/PrivatePortfolio",
     },
   ],
-  summary: "Resourceful Developer with 11 years of experience in designing and developing user interfaces, testing and training employees. Skilled at utilizing a wide variety of tools and programs to provide effective applications.",
+  summary: "I identify a problem, I solve it, not just tech ones. Working in tech since 2017. Open source contributor.",
   education: [
     {
-      "school": "Bachelor of Computer Science",
-      "degree": "New York University",
-      "startYear": "2020-08-20",
-      "endYear": "2024-07-01"
+      "school": "UFMG",
+      "degree": "Bachelor of Computer Science",
+      "startYear": "2013-01-01",
+      "endYear": "2017-12-01"
     },
   ],
   workExperience: [
     {
-      "company": "Torph TTC",
-      "position": "Developer",
-      "description": "Torph TTC is a global software company that offers user interface UI development tools and components for a range of developer applications across all platforms.",
-      "keyAchievements": "Created and maintained 10 web applications for numerous national and foreign clients.\nEnsured that the user interfaces and user experience of the software applications developed by the team met at least 80% of users expectations.\nCreated and analyzed 500 unit test cases.\nDeveloped python scripts to automate image's noise-reduction process which helped improve research analysis time by 40%.\nEstablished and lead a team of 10 people; covering every key role in the early stages.",
-      "startYear": "2023-02-16",
-      "endYear": "2023-02-21"
+      "company": "Systems Lab 21",
+      "position": "Full Stack Developer",
+      "description": `We provide IT-Systems Engineering for Digital Railways. Our mission is to
+      make railways in Germany and Europe more efficient and reliable. One goal
+      is the digitization and standardization of railway infrastructure. We partner
+      with infrastructure`,
+      "keyAchievements": `Main Contribution: Implemented and restructure code base applying best practices and increasing code quality.
+      Established and lead a team of 2 people; covering every key role in the early stages.
+      Created architecture of the core system.
+      Stack: NextJs, React, C#, HTML, CSS, Kafka, Azure DevOps, Terraform, Github Workflow (CI, CD), Postgres`,
+      "startYear": "2023-01-01",
+      "endYear": "present"
     },
     {
-      "company": "Reilty Group",
-      "position": "Front End Web Developer",
-      "description": "Reilty Group is an industry-leading provider of online gambling software and solutions.",
-      "keyAchievements": "Increased by 35% the reach of users to the platform, over the installation of the web platform in mobile devices.\nDelivered 30 web solutions.\nReplaced 1 full-time web developer under part-time employment achieving a productivity gain of over 60% as measured by working hours.\nWorked with more than 4 different teams at different points of time and provided end-to-end solutions for clients.",
-      "startYear": "2023-02-22",
-      "endYear": "2023-03-09"
+      "company": "Vrolio Investr",
+      "position": "Full Stack Developer Tech Lead",
+      "description": "Vrolio provides the highest standard, investment-grade short-term rental\ndata that powers the investment decisions of thousands of STR investors\nand agents across the US.",
+      "keyAchievements": `Main Contribution: Created and implemented architecture of back end using concepts of Distributed system and queuing thus increasing it's performance by an average of 50% and allowing for huge data ingestion
+      Increased performance of front end app by 80%
+      Established and lead a team of 2 people; covering every key role in the early stages
+      Stack: Typescript, NestJs, NextJs, Python, Kafka, BullMQ, HTML, CSS, Python, Postgres`,
+      "startYear": "2022-01-01",
+      "endYear": "2023-01-01"
     },
     {
-      "company": "HellX",
-      "position": "Python Developer",
-      "description": "Heller is a Software Editor specialized in logistics management.",
-      "keyAchievements": "Developed several automation systems - saved over $50,000 annually.\nJoined the team as #10 employee as a developer working directly with the biggest customers.\nInvolved in coding as per the requirement, delivered well ahead of time which saved project cost by 20%.\nReduced database size by nearly 50% and improved its performance by 20%.\nDelivery time of good reduced by 50%.",
-      "startYear": "2023-02-22",
-      "endYear": "2023-03-09"
+      "company": "Metrobi",
+      "position": "Front end Tech Lead",
+      "description": "Metrobi aims to support local food and beverage makers with logistics, financial, and marketing tools and help them expand their distribution businesses.",
+      "keyAchievements": `Main Contribution: Lead a team of 4 people, reorganizing team and rituals thus increasing productivity by 20%
+      Restructured front end app applying a consistent architecture pattern for
+      junior developers to follow
+      Stack: Typescript, NestJs, NextJs, Python, HTML, CSS, MongoDB, Firebase`,
+      "startYear": "2021-06-01",
+      "endYear": "2022-01-01"
+    },
+    {
+      "company": "XP Inc - Xtage",
+      "position": "Back end Developer",
+      "description": "XP Inc. is a Brazilian investment management company. The company offers fixed income, equities, investment funds, and private pension products, as well as offers wealth management and other financial services.",
+      "keyAchievements": `Main contribution: Created an inner source project that solved an inherent
+      issue with our distributed systems (schema validation), thus saving around 100k yearly for the
+      company which did not had to pay for an external solution
+      Part of the founding team of a new product, XTage. A Crypto online
+      exchange
+      Stack: Typescript, NestJs, NextJs, Python, Kafka, C#, HTML, CSS, Azure DevOps, Azure Pipelines (CI, CD), MySQL`,
+      "startYear": "2019-06-01",
+      "endYear": "2021-06-01"
+    },
+    {
+      "company": "Nata.House",
+      "position": "Full stack Developer",
+      "description": "Provides specialization primarily in software products, in either business or consumer software based on the needs of their client base and structure for a software release.",
+      "keyAchievements": `Main contributions: Head of a big refactor on one of the projects, bringing
+      more organization and productivity to the team
+      Stack: Typescript, NestJs, NextJs, Pythont, HTML, CSS, Postgres`,
+      "startYear": "2018-01-01",
+      "endYear": "2019-06-01"
     }
   ],
-  projects: [],
+  projects: [
+    {
+      "name": "Ficus Green",
+      "startYear": "2020-01-01",
+      "endYear": "2022-01-01",
+      "link": "https://ficus.green/au",
+      "description": `Automated greenhouse. Leveraging IoT technologies.
+      Main Contribution: Coded core back end.
+      Stack: Typescript, NestJs, Go, C++`
+    },
+    {
+      "name": "Whatzup",
+      "startYear": "2018-01-01",
+      "endYear": "2020-01-01",
+      "link": "https://www.whatzup.tech/",
+      "description": `Whatsapp bot creator with automated messaging and whatsapp integration
+      Main Contribution: Coded core system.
+      Stack: Typescript, NestJs, NextJs`
+    }
+  ],
   skills: [
     {
       title: "Technical Skills",
       skills: [
-        "JavaScript", "Python", "Web Services", "C++", "HTML5", "CSS", "SQL", "User Interface", "Creativity"
+        "JavaScript", "Python", "Web Services", "C#",
+        "HTML5", "CSS", "SQL", "NoSQL", "Postgres",
+        "Typescript", "NextJs", "NestJs", "ReactJs",
+        "AngularJs", "NodeJs", "Kafka", "Azure", "Git",
+        "Azure DevOps", "Azure Pipelines (CI, CD)", "Github Actions (CI, CD)",
+        "BullMQ"
       ]
     },
     {
       title: "Soft Skills",
       skills: [
-        "Collaboration", "Problem-solving", "Communication", "Time management", "Result-oriented"
+        "Collaboration", "Problem-solving",
+        "Communication", "Time management",
+        "Result-oriented", "Leadership"
       ]
     },
     {
@@ -77,11 +138,12 @@ const DefaultResumeData = {
   ],
   languages: [
     "English",
-    "Hindi",
+    "Portuguese",
+    "Italian",
+    "Spanish"
   ],
   certifications: [
-    "Certified Web Professional-Web Developer",
-    "Java Development Certified Professional",
+    "Certified Web Professional-Web Developer (Trybe)",
   ],
 };
 
