@@ -83,7 +83,14 @@ const DefaultResumeData = {
       "position": "Full stack Developer",
       "description": "Provides specialization primarily in software products, in either business or consumer software based on the needs of their client base and structure for a software release.",
       "keyAchievements": `Main contributions: Head of a big refactor on one of the projects, bringing
-      more organization and productivity to the team
+      more organization and productivity to the team.
+      During this work I worked mainly in 2 projects:
+      1. Resale: Online marketplace for real estate properties;
+      2. UCrypto: Online whitelabel bank and financial services;
+      Both projects included:
+      1. More complex CRUD operations;
+      2. Specific and complex business logic to be converted into code;
+      3. Mono repo structure with well organized modules, packages and responsibilities;
       Stack: Typescript, NestJs, NextJs, Pythont, HTML, CSS, Postgres`,
       "startYear": "2018-01-01",
       "endYear": "2019-06-01"
