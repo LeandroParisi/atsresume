@@ -30,6 +30,16 @@ const DefaultResumeData = {
   ],
   workExperience: [
     {
+      "company": "Deel",
+      "position": "Backend Developer",
+      "description": `Deel's the only platform that allows you to combine payroll, HR, performance, and compliance for any type of worker in 150 countries into a single platform. Consolidate your tools, reduce overhead, and unlock unrivalled insights into your workforce data. Main Contributions:`,
+      "keyAchievements": `Leading 2 projects which aim to maintain quality of the software and the code.
+      Contributed with ideas and execution of techniques to improve performance and reliability of the system.
+      Stack: NextJs, React, C#, HTML, CSS, Kafka, Github Workflow (CI, CD), Postgres, RabbitMQ`,
+      "startYear": "2024-01-01",
+      "endYear": "present"
+    },
+    {
       "company": "Systems Lab 21",
       "position": "Full Stack Developer",
       "description": `We provide IT-Systems Engineering for Digital Railways. Our mission is to
@@ -44,7 +54,7 @@ const DefaultResumeData = {
       Created architecture of the core system.
       Stack: NextJs, React, C#, HTML, CSS, Kafka, Azure DevOps, Terraform, Github Workflow (CI, CD), Postgres`,
       "startYear": "2023-01-01",
-      "endYear": "present"
+      "endYear": "2023-12-31"
     },
     {
       "company": "Vrolio Investr",
