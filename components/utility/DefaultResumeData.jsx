@@ -3,7 +3,7 @@ const DefaultResumeData = {
   position: "BackEnd Developer",
   contactInformation: "+55 31 997794403",
   email: "lepcbelisario@gmail.com",
-  address: "Minas Gerais, Brazil",
+  address: "The Hague - Netherlands",
   profilePicture: "",
   socialMedia: [
     {
