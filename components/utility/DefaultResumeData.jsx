@@ -29,16 +29,7 @@ const DefaultResumeData = {
     },
   ],
   workExperience: [
-    {
-      "company": "Deel",
-      "position": "Backend Developer",
-      "description": `Deel's the only platform that allows you to combine payroll, HR, performance, and compliance for any type of worker in 150 countries into a single platform. Consolidate your tools, reduce overhead, and unlock unrivalled insights into your workforce data. Main Contributions:`,
-      "keyAchievements": `Leading 2 projects which aim to maintain quality of the software and the code.
-      Contributed with ideas and execution of techniques to improve performance and reliability of the system.
-      Stack: NextJs, React, C#, HTML, CSS, Kafka, Github Workflow (CI, CD), Postgres, RabbitMQ`,
-      "startYear": "2024-01-01",
-      "endYear": "present"
-    },
+
     {
       "company": "Systems Lab 21",
       "position": "Full Stack Developer",
@@ -53,8 +44,8 @@ const DefaultResumeData = {
       The company in on the forefront of the implementation of a new protocol and convention on the industry called Eulynx. This convention is supposed to padronize and increase safety to all the railway industry in Europe but it is still on it's early stages and our company is one of the first ones to implement this, so my role is to bring these new practices and protocol to our clients, proposing new code structures and refactors to their code base so that they become Eulynx compliant.
       Created architecture of the core system.
       Stack: NextJs, React, C#, HTML, CSS, Kafka, Azure DevOps, Terraform, Github Workflow (CI, CD), Postgres`,
-      "startYear": "2023-01-01",
-      "endYear": "2023-12-31"
+      "startYear": "2023-06-01",
+      "endYear": "present"
     },
     {
       "company": "Vrolio Investr",
@@ -68,6 +59,16 @@ const DefaultResumeData = {
       Some pages of the application would required a huge aggregation to be done on the backend, and further more after the aggregation was done there was some operations that had to be done on each of the lines returned from the database (about 10.000 lines) and... some of those operations further required another call to the database. But, most of the calls to this endpoint would normally have the same parameters. So I have applied 2 strategies: 1. Caching of some crucial data. 2. Creation of roolup tables to reduce the number of join on the database. Thus improving performance.
       As a leader I had a crucial role helping the team members understand the features that were to be implemented and how to implement them.
       Stack: Typescript, NestJs, NextJs, Python, Kafka, BullMQ, HTML, CSS, Python, Postgres`,
+      "startYear": "2023-01-01",
+      "endYear": "2023-06-01"
+    },
+    {
+      "company": "Deel",
+      "position": "Backend Developer",
+      "description": `Deel's the only platform that allows you to combine payroll, HR, performance, and compliance for any type of worker in 150 countries into a single platform. Consolidate your tools, reduce overhead, and unlock unrivalled insights into your workforce data. Main Contributions:`,
+      "keyAchievements": `Leading 2 projects which aim to maintain quality of the software and the code.
+      Contributed with ideas and execution of techniques to improve performance and reliability of the system.
+      Stack: NextJs, React, C#, HTML, CSS, Kafka, Github Workflow (CI, CD), Postgres, RabbitMQ`,
       "startYear": "2022-01-01",
       "endYear": "2023-01-01"
     },
