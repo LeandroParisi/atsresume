@@ -43,7 +43,7 @@ const DefaultResumeData = {
       When I started on this job we had a code base which was built as a MVP, meaning it was not applying the best practices due to time to market. Once I started working I have rewritten a lot of the code in order to improve it's maintainability. One example of this is: There is a database which was being created from excel sheets and the data was not normalized nor cleaned meaning that all queries into the database would returned dirty data which would then be cleaned using regexes. I have created a proper migration structure in order to import and seed the database from the excel sheets, applying proper data normalization and cleaning to the data.
       The company in on the forefront of the implementation of a new protocol and convention on the industry called Eulynx. This convention is supposed to padronize and increase safety to all the railway industry in Europe but it is still on it's early stages and our company is one of the first ones to implement this, so my role is to bring these new practices and protocol to our clients, proposing new code structures and refactors to their code base so that they become Eulynx compliant.
       Created architecture of the core system.
-      Stack: NextJs, React, C#, HTML, CSS, Kafka, Azure DevOps, Terraform, Github Workflow (CI, CD), Postgres`,
+      Stack: NextJs, React, C#, HTML, CSS, Kafka, Azure DevOps, Terraform, Github Workflow (CI, CD), Postgres, Java`,
       "startYear": "2023-06-01",
       "endYear": "present"
     },
@@ -100,7 +100,7 @@ const DefaultResumeData = {
       Main contributions:`,
       "keyAchievements": `Created an inner source project that solved an inherent issue with our distributed systems, thus saving around 100k yearly for the company which did not have to hire an external solution.
       Part of the founding team of a new product, XTage, a Crypto online exchange, thus having a lot of responsibility in mentoring new members even those who were more senior than me since I had knowledge over all the architecture.
-      Stack: Typescript, NestJs, NextJs, Python, Kafka, C#, HTML, CSS, Azure DevOps, Azure Pipelines (CI, CD), MySQL`,
+      Stack: Typescript, NestJs, NextJs, Python, Kafka, C#, HTML, CSS, Azure DevOps, Azure Pipelines (CI, CD), MySQL, Java`,
       "startYear": "2019-06-01",
       "endYear": "2021-06-01"
     },
@@ -146,7 +146,7 @@ const DefaultResumeData = {
         "Typescript", "NextJs", "NestJs", "ReactJs",
         "AngularJs", "NodeJs", "Kafka", "Azure", "Git",
         "Azure DevOps", "Azure Pipelines (CI, CD)", "Github Actions (CI, CD)",
-        "BullMQ"
+        "BullMQ", "Java", "Spring Boot"
       ]
     },
     {
