@@ -29,7 +29,15 @@ const DefaultResumeData = {
     },
   ],
   workExperience: [
-
+    {
+      "company": "Freelancing",
+      "position": "Full Stack Developer",
+      "description": `Doing multiple freelancing jobs, as developer and as tech lead. Main Contributions:`,
+      "keyAchievements": `Leading team, creating architecture, coding core system, negotiating with clients, breaking down tasks for developers.
+      Stack: NextJs, React, C#, HTML, CSS, Kafka, Azure DevOps, Terraform, Github Workflow (CI, CD), Postgres, Java, React, SCSS, Tailwind, Postgres, Redis, MongoDB, Arduino`,
+      "startYear": "2024-06-01",
+      "endYear": "present"
+    },
     {
       "company": "Systems Lab 21",
       "position": "Full Stack Developer",
@@ -45,7 +53,7 @@ const DefaultResumeData = {
       Created architecture of the core system.
       Stack: NextJs, React, C#, HTML, CSS, Kafka, Azure DevOps, Terraform, Github Workflow (CI, CD), Postgres, Java`,
       "startYear": "2023-06-01",
-      "endYear": "present"
+      "endYear": "2024-06-01"
     },
     {
       "company": "Vrolio Investr",
